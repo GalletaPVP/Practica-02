@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 02</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h2>Practica sobre estructuras de control de Java Script</h2>
+        <div class="ejemplos">
+            <p>1.Escribir un programa que solicite al usuario introducir dos números. Si el primer número introducido es mayor que el segundo número, el programa debe imprimir el mensaje “El primer número es el mayor”, en caso contrario el programa debe imprimir el mensaje “El primer número es el más pequeño”. Considerar el caso de que ambos números sean iguales e imprimir el correspondiente mensaje.</p>
+            <div class="calculadora">
+                <div class="cabecera">
+                    <h1>CALCULADORA</h1>
+                </div>
+                <div class="cuerpo">
+                    <div class="campo">
+                        <label for="primer_numero1">Ingresar el primer numero</label>
+                        <input type="text" id="primer_numero1">
+                    </div>
+                    <div class="campo">
+                        <label for="segundo_numero1">Ingresar el segundo numero</label>
+                        <input type="text" id="segundo_numero1">
+                    </div>
+                </div>
+                <div class="footer">
+                    <button id="calcular1">Calcular</button>
+                    <button id="borrar1">Borrar</button>
+                </div>
+            </div>
+        </div>
+        <div class="ejemplos">
+            <p>2.Dados tres números deducir cuál es el central.</p>
+            <div class="calculadora">
+                <div class="cabecera">
+                    <h1>CALCULADORA</h1>
+                </div>
+                <div class="cuerpo">
+                    <div class="campo">
+                        <label for="primer_numero2">Ingresar el primer numero</label>
+                        <input type="text" id="primer_numero2">
+                    </div>
+                    <div class="campo">
+                        <label for="segundo_numero2">Ingresar el segundo numero</label>
+                        <input type="text" id="segundo_numero2">
+                    </div>
+                    <div class="campo">
+                        <label for="tercero_numero2">Ingresar el tercero numero</label>
+                        <input type="text" id="tercero_numero2">
+                    </div>
+                </div>
+                <div class="footer">
+                    <button id="calcular2">Calcular</button>
+                    <button id="borrar2">Borrar</button>
+                </div>
+            </div>
+        </div>
+        <div class="ejemplos">
+            <p>3.Calcular la raíz cuadrada de un número y escribir su resultado. Considerando el caso en que, si el número ingresado es negativo, debe salir un mensaje “Indeterminado”</p>
+            <div class="calculadora">
+                <div class="cabecera">
+                    <h1>CALCULADORA</h1>
+                </div>
+                <div class="cuerpo">
+                    <div class="campo">
+                        <label for="raiz_cuadrada">Ingresar un numero</label>
+                        <input type="text" id="raiz_cuadrada">
+                    </div>
+                    <div class="campo">
+                        <label for="resultado_raiz">Raiz cuadrada <span id="adicional"></span></label>
+                        <input type="text" id="resultado_raiz" disabled>
+                    </div>
+                </div>
+                <div class="footer">
+                    <button id="calcular3">Calcular</button>
+                    <button id="borrar3">Borrar</button>
+                </div>
+            </div>
+        </div>
+        <div class="ejemplos">
+            <p>4.Un ángulo se considera agudo si es menor de 90 grados, obtuso si es mayor de 90 grados y recto si es igual a 90 grados. Utilizando esta información, escribir un algoritmo que acepte un ángulo en grados y visualice el tipo de ángulo correspondiente a los grados introducidos.</p>
+            <div class="calculadora">
+                <div class="cabecera">
+                    <h1>CALCULADORA</h1>
+                </div>
+                <div class="cuerpo">
+                    <div class="campo">
+                        <label for="angulo">Ingresar el angulo</label>
+                        <input type="text" id="angulo">
+                    </div>
+                    <div class="campo">
+                        <label for="tipo_angulo">Tipo de angulo</label>
+                        <input type="text" id="tipo_angulo" disabled>
+                    </div>
+                </div>
+                <div class="footer">
+                    <button id="calcular4">Calcular</button>
+                    <button id="borrar4">Borrar</button>
+                </div>
+            </div>
+        </div>
+        <div class="ejemplos">
+            <p>5.Generar la tabla de multiplicar de un numero ingresado por teclado hasta otro número ingresado por teclado.</p>
+            <div class="calculadora">
+                <div class="cabecera">
+                    <h1>CALCULADORA</h1>
+                </div>
+                <div class="cuerpo">
+                    <div class="campo">
+                        <label for="inicial">Ingresar el numero a calcular</label>
+                        <input type="text" id="inicial">
+                    </div>
+                </div>
+                <div class="cuerpo">
+                    <div class="campo">
+                        <label for="final">Ingresar numero final</label>
+                        <input type="text" id="final">
+                    </div>
+                </div>
+                <div class="footer">
+                    <button id="calcular5">Calcular</button>
+                    <button id="borrar5">Borrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/calculos.js"></script>
+</body>
+</html>

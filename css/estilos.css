@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    width: 60%;
+    margin: 0px auto;
+}
+
+.contenedor h2{
+    text-align: center;
+    margin:10px 0px;
+}
+
+.ejemplos{
+    text-align: justify;
+}
+
+.calculadora{
+    border: 1px solid;
+    width: 50%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+[type="text"]{
+    width: 100%;
+    text-align: center;
+}
+
+.campo{
+    width: 60%;
+    margin: 10px auto;
+}
+
+.cabecera{
+    background-color:green;
+    color: white;
+}
+
+.footer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
